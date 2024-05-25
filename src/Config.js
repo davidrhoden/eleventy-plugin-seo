@@ -4,6 +4,7 @@ class Config {
   constructor(config = {}) {
     const defaults = {
       url: "",
+      path: "",
       options: {
         twitterCardType: "summary",
         showPageNumbers: true
